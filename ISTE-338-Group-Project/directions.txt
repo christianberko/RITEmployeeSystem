@@ -1,0 +1,51 @@
+ISTE-338-Group-Project
+Authors - Anderson Cardenas, Andrew Apollo, Jacob Bier, Nick Berko, Lauren Carver
+
+Initial steps:
+    1: Source Professor_Match.sql
+    2: Source test_data.sql
+    3: Run the presentation layer
+
+Upon running the presentation layer, you will initially have three options.
+    Case 1 (Login) will ask the user to enter their username and password. If their information is correct they will be logged in, if not, a message will print out saying the account information is incorrect.
+    Case 2 (Create new account) will ask the user to enter an email and password and return their unique id number. Their id number is their username.
+    Case 3 (Quit) will ask if the user is sure that they want to quit and will only quit if they select yes.
+
+
+
+Test data to log in as a student. 
+    Email: asmith@example.com
+    Password: password123
+
+If a student successfully logs in, they will now have five options.
+    Case 1 (Search Faculty Interest) will allow the student to search faculty interests.
+    Case 2 (Search Faculty Abstracts) will allow the student to search faculty abstracts.
+    Case 3 (Add Interest) will allow the student to add interests.
+    Case 4 (See Own Interests) will allow the user to see their own interests.
+    Case 5 (Quit) will ask if the user is sure that they want to quit and will only quit if they select yes.
+
+
+
+Test data to log in as a faculty member. 
+    Email: jdoe@example.com
+    Password: password123
+
+If a faculty member successfully logs in, they will now have seven options.
+    Case 1 (Search Student Interests) will allow the faculty to search student interests.
+    Case 2 (Insert Abstracts or Interests) will allow the user to insert abstracts or interests.
+    Case 3 (Update Abstracts) will allow the user to update abstracts.
+    Case 4 (Delete Abstracts or Interests) will allow the user to delete abstracts or interests.
+    Case 5 (See Own Interests) will allow the user to see their own interests.
+    Case 6 (See Own Abstracts) will allow the user to see their own abstracts.
+    Case 7 (Quit) will ask if the user is sure that they want to quit and will only quit if they select yes.
+
+
+
+Test data to log in as an outside organization member. 
+    Email: org1@example.com
+    Password: password123
+
+If an outside organization member successfully logs in, they will now have three options.
+    Case 1 (Search Student Interests)  will allow the outside organization member to search student interests.
+    Case 2 (Search Faculty Interests) will allow the outside organization member to search faculty interests.
+    Case 3 (Quit) will ask if the user is sure that they want to quit and will only quit if they select yes.
